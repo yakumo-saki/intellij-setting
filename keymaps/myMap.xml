@@ -2,6 +2,10 @@
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
   </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="RunToCursor" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
