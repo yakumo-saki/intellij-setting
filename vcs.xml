@@ -14,6 +14,10 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="shindo-sdk" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://sanrit.aa0.netvolante.jp" />
+          <option name="userName" value="shindo" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/IdeaProjects" />
