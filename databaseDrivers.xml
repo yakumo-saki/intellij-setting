@@ -1,8 +1,9 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="163">
     <driver id="h2.unified" name="H2" dialect="H2">
-      <artifact name="H2" use="true" />
+      <artifact name="H2" use="true" version="1.4.192" />
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
     </driver>
     <driver id="oracle" name="Oracle" dialect="Oracle">
       <artifact name="Oracle" use="true">
@@ -33,6 +34,17 @@
     <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
       <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="e79458e2-45e3-475e-ba91-52e98e3787ba" name="H2 1.4.196" dialect="H2" driver-class="org.h2.Driver" icon="AllIcons.Providers.H2">
+      <url-template name="Remote" template="jdbc:h2:tcp://{host::localhost}[:{port::9092}]/{database::default}[;&lt;;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <url-template name="In-memory" template="jdbc:h2:mem:{database::default}?[;&lt;;,{:identifier}={:param}&gt;]" />
+      <url-template name="Embedded" template="jdbc:h2:!(tcp://)[file:]{path}[;&lt;;,user={user:param},password={password:param},{:identifier}={:param}&gt;]" />
+      <artifact name="H2" version="1.4.192" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <library>
+        <url>file://$USER_HOME$/bin/jdbc/h2-1.4.196.jar</url>
+      </library>
     </driver>
     <driver id="hsqldb.local" name="HSQLDB (Local)" dialect="HSQLDB">
       <artifact name="HSQLDB" use="true" />
