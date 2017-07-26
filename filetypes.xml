@@ -2,9 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="01_create_agency" type="PLAIN_TEXT" />
-      <mapping pattern="01_create_event" type="PLAIN_TEXT" />
-      <mapping pattern="starth2" type="PLAIN_TEXT" />
+      <mapping pattern="ListFormSelect" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern="starth2" type="PLAIN_TEXT" />
+      <mapping pattern="01_create_event" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
     </extensionMap>
